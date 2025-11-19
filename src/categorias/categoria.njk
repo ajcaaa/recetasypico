@@ -1,0 +1,30 @@
+---
+layout: layout.njk
+pagination:
+  data: categorias
+  size: 1
+  alias: categoria
+permalink: "/categorias/{{ categoria.slug }}/"
+---
+
+<!-- Main -->
+  <section class="featured-recipes">
+    <h2>Recetas de {{ categoria.nombre }}</h2>
+    <div class="recipes-container">
+      {%- set nombreCategoria = categoria.nombre | lower -%}
+      {%- for receta in recetas -%}
+        {%- for cat in receta.categoria -%}
+          {%- if cat | lower == nombreCategoria -%}
+            <article class="recipe-card">
+              <a href="{{ ('/recetas/' + receta.slug + '/') | url }}">
+                <img src="{{ ('/' + receta.imagen) | url }}" alt="{{ receta.titulo }}">
+              </a>
+              <h3>
+                <a href="{{ ('/recetas/' + receta.slug + '/') | url }}">Receta de {{ receta.titulo }}</a>
+              </h3>
+            </article>
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endfor -%}
+    </div>
+  </section>

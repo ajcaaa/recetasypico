@@ -1,0 +1,13 @@
+/* Aseguramos que el html y body ocupen el 100% de la pantalla */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Colocamos los elementos en una columna */
+}
+
+/* El main debe ocupar todo el espacio restante */
+.main-content, .main-content-recipe, .main-content-legal, .main-content-buscador {
+    flex: 1; /* Esto permite que el main ocupe el espacio restante entre el header y el footer */
+}

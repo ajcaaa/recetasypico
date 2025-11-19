@@ -1,0 +1,195 @@
+/*RESULTADOS PARA...*/
+#titulo-busqueda {
+  text-align: left;
+  margin-bottom: 1rem;
+  margin-top: 0rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+/*... RECETAS ENCONTRADAS*/
+#num-resultados {
+  text-align: left;
+  margin-bottom: 2rem;
+  font-size: 1.125rem;
+  color: #333;
+}
+
+/*NO SE ENCONTRARON RECETAS*/
+.no-buscador {
+  text-align: left;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.recipe-card-buscador {
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+  display: block;
+  margin: 2rem auto;
+}
+
+.recipe-card-buscador::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.recipe-card-buscador .imagen-buscador {
+  width: 13rem;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+  height: auto;
+  flex-shrink: 0;
+  float: left;
+  /* La clave: flotar a la izquierda */
+  margin: 0 2rem 1rem 0rem;
+  /* Margen derecho e inferior para separación */
+}
+
+.about-text-buscador {
+  font-size: 1.125rem;
+  font-weight: normal;
+  margin: 0rem;
+  color: #333;
+  text-align: justify;
+}
+
+.about-section-buscador {
+  flex: 1;
+}
+
+.fila-iconos {
+  flex-wrap: wrap;
+}
+
+.fila-2 span:not(:last-child)::after {
+  content: "|";
+  margin: 0rem 0.2rem 0rem 1rem;
+  color: #b6bdbd;
+}
+
+/* AJUSTES PARA QUE LOS ICONOS ESTÉN MÁS PEGADOS */
+.fila-iconos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin: 1rem 1rem;
+}
+
+.fila-iconos span {
+  display: flex;
+  align-items: center;
+  color: #333;
+}
+
+.fila-iconos span strong {
+  display: flex;
+  align-items: center;
+}
+
+.fila-iconos span::after {
+  content: "";
+  margin: 0;
+}
+
+.fila-1 {
+  margin: 0.5rem;
+}
+
+.fila-2 {
+  margin: 0.5rem;
+}
+
+.hr-wrapper hr {
+  width: 100%;
+  border: none;
+  border-color: #b6bdbd;
+  margin: 0 auto 1rem auto;
+}
+
+@media (max-width: 32rem) {
+  .main-content-buscador {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra todo */
+    text-align: center;
+    padding: 1rem 0rem;
+    margin: 1rem 0rem;
+  }
+
+  .recipe-card-buscador .imagen-buscador {
+    aspect-ratio: 2 / 1;
+    width: 100%; /* 👈 Añadir esta línea para ocupar casi todo el ancho */
+    margin: 0 auto 1rem auto; /* 👈 Centrar la imagen */
+    float: none; /* 👈 Quitar el float en móviles */
+  }
+
+  .recipe-card-buscador {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra todo */
+    text-align: center;
+  }
+  .titulo-buscador {
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto; /* Centrado real */
+    padding: 0 1rem; /* Espacio lateral si quieres */
+    word-wrap: break-word;
+  }
+  .about-text-buscador {
+    display: none;
+  }
+  .fila-1 {
+    display: none;
+  }
+  .fila-2 {
+    justify-content: center; /* 👈 Esto centra los hijos en el eje horizontal */
+  }
+}
+@media (min-width: 32rem) {
+  .main-content-buscador {
+    padding: 2rem 1rem;
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra todo */
+    text-align: center;
+  }
+  .recipe-card-buscador img {
+    aspect-ratio: 1 / 1;
+  }
+  .titulo-buscador {
+    text-align: left;
+    max-width: 100%;
+    margin: 0 auto; /* Centrado real */
+    padding: 0 1rem; /* Espacio lateral si quieres */
+    word-wrap: break-word;
+  }
+
+  .about-text-buscador {
+    max-width: 40rem;
+  }
+}
+@media (min-width: 53rem) {
+  .main-content-buscador {
+    padding: 2rem 10rem;
+    margin: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra todo */
+    text-align: center;
+  }
+
+  .about-text-buscador {
+    max-width: 40rem;
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "recetasypico-11ty",
+  "version": "1.0.0",
+  "description": "Sitio web de recetas estático hecho con Eleventy",
+  "main": ".eleventy.js",
+  "scripts": {
+    "dev": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [
+    "recetas",
+    "11ty",
+    "eleventy",
+    "web",
+    "nunjucks"
+  ],
+  "author": "Adolfo",
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "html-minifier-terser": "^7.2.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

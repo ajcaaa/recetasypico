@@ -1,0 +1,80 @@
+---
+layout: layout_receta.njk
+pagination:
+  data: recetas
+  size: 1
+  alias: receta
+permalink: "recetas/{{ receta.slug }}/index.html"
+---
+
+  <!-- Sección principal con título e imagen -->
+  <section class="recipe">
+    <h1>Receta de {{ receta.titulo }}</h1>
+    <div class="recipes-container2">
+      <article class="image-recipe">
+        <img src="{{ ('/' + receta.imagen) | url }}" alt="{{ receta.titulo }}" />
+      </article>
+    </div>
+  </section>
+
+  <!-- Sección de descripción -->
+  {% if receta.descripcion %}
+  <section class="about-section-recipe">
+    <p class="about-text-recipe">
+      {{ receta.descripcion }}
+    </p>
+  </section>
+  {% endif %}
+
+  <!-- Sección de información adicional -->
+  <section class="info-recipe recipe-box">
+    <span>
+      <strong>
+        <span class="material-symbols-outlined">av_timer</span>
+      </strong>
+      {{ receta.tiempo | default("45 minutos") }}
+    </span>
+    <hr>
+    <span>
+      <strong>
+        <span class="material-symbols-outlined">group</span>
+      </strong>
+      {{ receta.comensales | default("4 comensales") }}
+    </span>
+    <hr>
+    <span>
+      <strong>
+        <span class="material-symbols-outlined">bar_chart</span>
+      </strong>
+      {{ receta.dificultad | default("Dificultad media") }}
+    </span>
+    <hr>
+    <span>
+      <strong>
+        <span class="material-symbols-outlined">restaurant</span>
+      </strong>
+      {{ receta.tipo | default("Plato principal") }}
+    </span>
+  </section>
+
+  <!-- Sección de ingredientes -->
+  <section class="ingredients-section recipe-box">
+    <h2>Ingredientes</h2>
+    <hr />
+    <ul>
+      {%- for ingrediente in receta.ingredientes -%}
+        <li>{{ ingrediente }}</li>
+      {%- endfor -%}
+    </ul>
+  </section>
+
+  <!-- Sección de pasos o instrucciones -->
+  <section class="steps-section recipe-box">
+    <h2>Instrucciones</h2>
+    <hr />
+    <ol>
+      {%- for instruccion in receta.instrucciones -%}
+        <li>{{ instruccion }}</li>
+      {%- endfor -%}
+    </ol>
+  </section>

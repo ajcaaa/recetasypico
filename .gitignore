@@ -1,0 +1,10 @@
+# Node dependencies
+node_modules/
+
+# Eleventy build output
+_site/
+
+# Optional: OS or editor junk
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,207 @@
+.main-content-recipe {
+  padding: 1rem;
+  /* Espaciado interno del main */
+  margin: 0;
+  align-items: center; /* Alinea el contenido principal al centro */
+}
+
+/* Estilos para los títulos de las recetas */
+.main-content-recipe h1 {
+  text-align: left;
+  /* Alinear los títulos a la izquierda */
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  /* Margen inferior para separar el título de las recetas */
+  font-size: 2rem;
+  /* Tamaño de fuente para los títulos */
+  color: #333;
+  /* Color de los títulos */
+}
+
+/* Contenedor de recetas */
+.recipes-container2 {
+  display: flex;
+  /* Utilizamos flexbox para el diseño */
+  flex-wrap: wrap;
+  /* Permite que los elementos se envuelvan */
+  gap: 1rem;
+  /* Espaciado*/
+  justify-content: center;
+  /* Centra las recetas horizontalmente */
+}
+
+/* Estilos para las imágenes dentro de las tarjetas */
+.image-recipe img {
+  width: 100%;
+  /* La imagen ocupa todo el ancho del contenedor */
+  object-fit: cover;
+  /* Recorta la imagen para llenar el contenedor sin distorsión */
+  border-radius: 0;
+  /* Elimina cualquier redondeo de bordes */
+  aspect-ratio: 1.5/1;
+  /* Mantiene una proporción 2:1 para que sean rectangulares */
+  max-width: 37.5rem;
+}
+
+/* Estilos para el texto */
+.about-text-recipe {
+  font-size: 1.125rem;
+  /* Ajusta el tamaño del texto para que coincida con h3 */
+  font-weight: normal;
+  /* Asegura que el peso de la fuente sea el mismo */
+  line-height: 1.5;
+  /* Mejora la legibilidad */
+  color: #333;
+  /* Color del texto */
+  text-align: justify;
+  max-width: 40rem;
+  margin: 1rem auto; /* Centra el texto horizontalmente */
+}
+
+.info-recipe {
+  width: 100%;
+  max-width: 40rem;
+  margin: 1rem auto;
+  font-size: 1rem;
+  color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info-recipe span:not(:last-child)::after {
+  content: "|";
+  margin: 1rem;
+  color: #b6bdbd;
+}
+
+.info-recipe span {
+  margin: 0 rem;
+}
+
+.info-recipe svg {
+  width: 1.25rem;
+}
+
+.info-recipe li {
+  margin-bottom: 0.5rem;
+}
+
+/* Ingredientes */
+.ingredients-section {
+  font-size: 1.125rem;
+  /* Ajusta el tamaño del texto para que coincida con h3 */
+  font-weight: normal;
+  /* Asegura que el peso de la fuente sea el mismo */
+  line-height: 1.5;
+  /* Mejora la legibilidad */
+  color: #333;
+  /* Color del texto */
+  text-align: left;
+  max-width: 40rem;
+  margin: 1rem auto; /* Centra el texto horizontalmente */
+}
+
+.ingredients-section h2 {
+  margin-top: 0;
+  padding-top: 0; /* opcional si ya no tienes padding */
+}
+
+/* Instrucciones*/
+.steps-section {
+  font-size: 1.125rem;
+  /* Ajusta el tamaño del texto para que coincida con h3 */
+  font-weight: normal;
+  /* Asegura que el peso de la fuente sea el mismo */
+  line-height: 1.5;
+  /* Mejora la legibilidad */
+  color: #333;
+  /* Color del texto */
+  text-align: justify;
+  max-width: 40rem;
+  margin: 1rem auto; /* Centra el texto horizontalmente */
+}
+
+.steps-section h2 {
+  margin-top: 0;
+  padding-top: 0; /* opcional si ya no tienes padding */
+}
+
+hr {
+  height: 1px; /* o el grosor que quieras */
+  background-color: #b6bdbd; /* el color visible */
+  border: none; /* elimina el borde por defecto */
+  margin: 1rem 0; /* opcional: separación arriba/abajo */
+}
+
+.ingredients-section h2,
+.steps-section h2 {
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Listas */
+.ingredients-section ul,
+.steps-section ol {
+  padding-left: 1.5rem;
+}
+
+.ingredients-section li,
+.steps-section li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+/* 🟨 Caja envolvente tipo tarjeta */
+.recipe-box {
+  border: 1px solid #b6bdbd;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  max-width: 40rem;
+  width: 90%;
+}
+
+.material-symbols-outlined {
+  font-size: 1.25rem;
+  vertical-align: middle;
+  margin-right: 0.25rem;
+  color: #333; /* o el color que quieras */
+}
+
+/* --------------- Ajustes responsivos ------------------- */
+@media (min-width: 40rem) {
+  /* Aproximadamente 640px para pantallas medianas */
+  .main-content-recipe h1 {
+    text-align: center;
+  }
+
+  .info-recipe hr {
+    display: none;
+  }
+}
+
+/* Comportamiento en pantallas pequeñas */
+@media (max-width: 40rem) {
+  .info-recipe {
+    flex-direction: column;
+    text-align: left;
+    padding: 1rem 1rem;
+  }
+  .info-recipe span:not(:last-child)::after {
+    display: none;
+  }
+
+  .info-recipe hr {
+    border: none;
+    border-top: 1px solid #b6bdbd;
+    margin: 0.5rem 0;
+  }
+
+  .ingredients-section {
+    padding: 1rem;
+  }
+
+  .steps-section {
+    padding: 1rem;
+  }
+}

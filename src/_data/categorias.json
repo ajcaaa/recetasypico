@@ -1,0 +1,57 @@
+[
+  {
+    "nombre": "Arroces",
+    "slug": "arroces",
+    "imagen": "imagenes/categorias/arroces.webp"
+  },
+  {
+    "nombre": "Carne",
+    "slug": "carne",
+    "imagen": "imagenes/categorias/carne.webp"
+  },
+  {
+    "nombre": "Con Huevo",
+    "slug": "con-huevo",
+    "imagen": "imagenes/categorias/con-huevo.webp"
+  },
+  {
+    "nombre": "Cremas y sopas",
+    "slug": "cremas-y-sopas",
+    "imagen": "imagenes/categorias/cremas-y-sopas.webp"
+  },
+  {
+    "nombre": "Legumbres",
+    "slug": "legumbres",
+    "imagen": "imagenes/categorias/legumbres.webp"
+  },
+  {
+    "nombre": "Pasta",
+    "slug": "pasta",
+    "imagen": "imagenes/categorias/pasta.webp"
+  },
+  {
+    "nombre": "Pescado y Marisco",
+    "slug": "pescado-y-marisco",
+    "imagen": "imagenes/categorias/pescado-y-marisco.webp"
+  },
+  {
+    "nombre": "Frito",
+    "slug": "frito",
+    "imagen": "imagenes/categorias/frito.webp"
+  },
+  {
+    "nombre": "Salsas",
+    "slug": "salsas",
+    "imagen": "imagenes/categorias/salsas.webp"
+  },
+  {
+    "nombre": "Vegetarianas",
+    "slug": "vegetarianas",
+    "imagen": "imagenes/categorias/vegetarianas.webp"
+  },
+  {
+    "nombre": "Aperitivos",
+    "slug": "aperitivos",
+    "imagen": "imagenes/categorias/aperitivos.webp"
+  }
+]

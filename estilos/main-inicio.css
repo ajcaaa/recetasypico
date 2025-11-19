@@ -1,0 +1,162 @@
+/* Estilos para los títulos de las secciones */
+.main-content h2 {
+  text-align: left;
+  /* Alinear los títulos a la izquierda */
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  /* Margen inferior para separar el título de las recetas */
+  font-size: 1.5rem;
+  /* Tamaño de fuente para los títulos */
+  color: #333;
+  /* Color de los títulos */
+}
+
+/* Contenedor de recetas */
+.recipes-container {
+  display: flex;
+  /* Utilizamos flexbox para el diseño */
+  flex-wrap: wrap;
+  /* Permite que los elementos se envuelvan */
+  gap: 1rem;
+  /* Espaciado entre las recetas */
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+/* Estilos para las tarjetas de recetas */
+.recipe-card {
+  text-align: center;
+  /* Centrar el contenido */
+}
+
+.recipe-card a {
+  text-decoration: none;
+  /* Elimina el subrayado */
+  color: inherit;
+  /* Usa el color del contenedor padre, si lo prefieres */
+}
+
+/* Asegúrate de que los enlaces no cambien al pasar el mouse */
+.recipe-card a:hover {
+  text-decoration: none;
+  /* Elimina el subrayado en hover también */
+}
+
+/* ******Ajustes responsivos******* */
+/* ****** 1. min 35 rem ******* */
+@media (min-width: 35rem) {
+  /* Aproximadamente 640px para pantallas medianas */
+
+  .recipe-card {
+    flex: 1 1 calc(50% - 1rem);
+    /* En pantallas medianas, dos recetas por fila */
+    max-width: calc(50% - 1rem);
+    /* Limita el ancho máximo al 50% del contenedor */
+  }
+}
+
+/* ****** 2. max 59 rem ******* */
+@media (max-width: 59rem) {
+  /* Aproximadamente 1024px para pantallas grandes */
+
+  .main-content {
+    padding: 1rem 0.5rem;
+    /* Espaciado interno del main */
+    margin: 1rem;
+  }
+
+  .recipe-card img {
+    aspect-ratio: 2 / 1;
+    /* Mantiene una proporción 2:1 para que sean rectangulares */
+  }
+}
+
+/* ****** 3. min 59 rem ******* */
+@media (min-width: 59rem) {
+  /* Aproximadamente 1024px para pantallas grandes */
+
+  .main-content {
+    padding: 3rem 0rem;
+    /* Espaciado interno del main */
+    margin: 1rem 6rem;
+  }
+
+  .recipe-card {
+    flex: 1 1 calc(25% - 1rem);
+    /* En pantallas grandes, cuatro recetas por fila */
+    max-width: calc(25% - 1rem);
+    /* Limita el ancho máximo al 25% del contenedor */
+  }
+
+  .recipe-card img {
+    aspect-ratio: 1 / 1;
+    /* Mantiene una proporción 1:1 para que sean cuadradas */
+  }
+}
+
+
+/* ****** 4. min 63rem ******* */
+@media (min-width: 75rem) {
+  /* A partir de 1264px aprox. */
+  .main-content {
+    max-width: 67rem; /* Mantiene el ancho fijo del contenido */
+    margin: 0 auto;   /* Centra el bloque */
+  }
+}
+
+
+/* Estilos para las imágenes dentro de las tarjetas */
+.recipe-card img {
+  width: 100%;
+  /* La imagen ocupa todo el ancho del contenedor */
+  object-fit: cover;
+  /* Recorta la imagen para llenar el contenedor sin distorsión */
+  border-radius: 0;
+  /* Elimina cualquier redondeo de bordes */
+  transition: filter 0.3s ease;
+}
+
+.recipe-card:hover img {
+  filter: brightness(0.8); /* Oscurece la imagen al 80% de brillo */
+}
+
+/* Estilos para los títulos de las recetas */
+.recipe-card h3 {
+  font-size: 1.125rem;
+  /* Tamaño de fuente */
+  font-weight: normal;
+  /* Elimina la negrita de los títulos */
+  margin: 0.5rem 0;
+  /* Margen superior e inferior */
+  color: #333;
+  /* Color del texto */
+}
+
+.recipe-card h3 a:hover {
+  color: #000;
+}
+
+/* Estilos para el texto */
+.about-text {
+  font-size: 1.125rem;
+  /* Ajusta el tamaño del texto para que coincida con h3 */
+  font-weight: normal;
+  /* Asegura que el peso de la fuente sea el mismo */
+  margin: 1rem 0;
+  /* Espaciado similar a los títulos */
+  line-height: 1.5;
+  /* Mejora la legibilidad */
+  color: #333;
+  /* Color del texto */
+  text-align: justify;
+}
+
+.inline-h1 {
+  display: inline; /* Hacemos que el <h1> se comporte como un texto en línea */
+  font-size: inherit; /* Hereda el tamaño de fuente del contenedor padre */
+  font-weight: bold;
+  margin: 0; /* Eliminamos márgenes adicionales que el <h1> pueda tener */
+  padding: 0; /* Eliminamos cualquier relleno adicional */
+  color: inherit; /* Heredamos el color del texto circundante */
+  line-height: inherit; /* Aseguramos que la altura de línea sea coherente */
+}

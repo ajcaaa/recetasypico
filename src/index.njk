@@ -1,0 +1,46 @@
+---
+layout: layout.njk
+title: "Recetas y Pico | Recetas caseras"
+description: "Recetas caseras y saludables de toda la vida"
+permalink: "/index.html"
+---
+<section class="featured-recipes">
+  <h2>Recetas destacadas</h2>
+  <div class="recipes-container">
+    {%- set contador = 0 -%}
+    {%- for receta in recetas | reverse -%}
+      {%- if receta.destacada == "si" and contador < 4 -%}
+        <article class="recipe-card">
+          <a href="{{ ('/recetas/' + receta.slug + '/') | url }}">
+            <img src="{{ ('/' + receta.imagen) | url }}" alt="{{ receta.titulo }}">
+          </a>
+          <h3>
+            <a href="{{ ('/recetas/' + receta.slug + '/') | url }}">{{ receta.titulo }}</a>
+          </h3>
+        </article>
+        {%- set contador = contador + 1 -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</section>
+
+<section class="latest-recipes">
+  <h2>Últimas recetas</h2>
+  <div class="recipes-container">
+    {%- set contador = 0 -%}
+    {%- for receta in recetas | reverse -%}
+      {%- if contador < 8 -%}
+        <article class="recipe-card">
+          <a href="{{ ('/recetas/' + receta.slug + '/') | url }}">
+            <img src="{{ ('/' + receta.imagen) | url }}" alt="{{ receta.titulo }}">
+          </a>
+          <h3>
+            <a href="{{ ('/recetas/' + receta.slug + '/') | url }}">{{ receta.titulo }}</a>
+          </h3>
+        </article>
+        {%- set contador = contador + 1 -%}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</section>
+

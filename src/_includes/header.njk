@@ -1,0 +1,22 @@
+<header class="header">
+  <nav class="nav">
+    <a href="{{ '/index.html' | url }}">
+      <img src="{{ '/imagenes/generales/cover.png' | url }}" alt="Cover de Recetas y Pico" class="nav-logo" />
+    </a>
+
+    <div class="nav-der">
+      <form class="nav-form" method="GET" action="{{ '/resultados.html' | url }}">
+        <input type="text" placeholder="¿Qué buscas?" class="nav-search" name="q" />
+        <button type="submit" class="search-icon" aria-label="Buscar">&#128269;</button>
+      </form>
+
+      <ul class="nav-list">
+        <li><a href="{{ '/index.html' | url }}">Inicio</a></li>
+        <li><a href="{{ '/recetas.html' | url }}">Recetas</a></li>
+        <li><a href="{{ '/categorias.html' | url }}">Categorías</a></li>
+      </ul>
+
+      <button class="hamburger-menu" aria-label="Abrir menú">&#9776;</button>
+    </div>
+  </nav>
+</header>

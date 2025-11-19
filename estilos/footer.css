@@ -1,0 +1,29 @@
+.footer {
+    display: flex; /* Utilizamos flexbox para el diseño */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan */
+    gap: 0.75rem; /* Espaciado */
+    align-items: center; /* Centra los elementos verticalmente */
+    justify-content: center;
+    background-color: #E6E9E9; /* Color de fondo */
+    padding: 0.4rem 1rem; /* Espaciado interno */
+    text-align: center; /* Centra el texto */
+    border-top: 0.0625rem solid #ddd; /* Línea superior para separar del contenido */
+    font-size: 0.9rem; /* Tamaño de letra más pequeño */
+}
+
+.footer #copy-footer {
+    margin: 0.5rem 0; /* Margen para separar los elementos */
+    color: #333; /* Color del texto */
+    font-size: 0.9rem;
+}
+
+.footer a {
+    margin: 0 0.5rem; /* Espaciado lateral entre los enlaces */
+    color: #333; /* Color de los enlaces */
+    text-decoration: none; /* Elimina el subrayado */
+    transition: color 0.3s; /* Suaviza la transición del color al pasar el ratón */
+}
+
+.footer a:hover {
+    color: #000000; /* Color al pasar el ratón */
+}

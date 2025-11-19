@@ -1,0 +1,22 @@
+---
+layout: layout.njk
+title: "Recetas y Pico | Recetas caseras"
+description: "Recetas caseras y saludables de toda la vida"
+permalink: "/recetas.html"
+---
+  <!-- Main -->
+    <section class="recipes">
+      <h2>Todas las Recetas</h2>
+      <div class="recipes-container">
+        {%- for receta in recetas -%}
+          <article class="recipe-card">
+            <a href="{{ ('/recetas/' + receta.slug + '/') | url }}">
+              <img src="{{ ('/' + receta.imagen) | url }}" alt="{{ receta.titulo }}">
+            </a>
+            <h3>
+              <a href="{{ ('/recetas/' + receta.slug + '/') | url }}">{{ receta.titulo }}</a>
+            </h3>
+          </article>
+        {%- endfor -%}
+      </div>
+    </section>

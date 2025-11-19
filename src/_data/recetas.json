@@ -1,0 +1,1038 @@
+[
+  {
+    "titulo": "Receta de Garbanzos con acelgas",
+    "descripcion": "Los garbanzos con acelgas son un plato tradicional lleno de sabor y nutrientes. Ideal para los meses más frescos, esta receta combina legumbre y verdura en un guiso reconfortante y fácil de preparar.",
+    "categoria": [
+      "legumbres",
+      "vegetarianas"
+    ],
+    "palabrasClave": [
+      "garbanzos",
+      "acelgas",
+      "guiso",
+      "tradicional",
+      "legumbres",
+      "cuchareo",
+      "potaje"
+    ],
+    "imagen": "imagenes/recetas/garbanzos-con-acelgas.webp",
+    "slug": "garbanzos-con-acelgas",
+    "tiempo": "1 hora",
+    "comensales": "4 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "400 g de garbanzos cocidos",
+      "300 g de acelgas",
+      "1 cebolla",
+      "2 dientes de ajo",
+      "1 tomate",
+      "1 cucharadita de pimentón",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta al gusto"
+    ],
+    "instrucciones": [
+      "Lava y corta las acelgas en trozos pequeños.",
+      "En una cazuela, sofríe la cebolla y los ajos picados con un poco de aceite.",
+      "Añade el tomate rallado y cocina durante unos minutos.",
+      "Incorpora las acelgas y cocina hasta que estén tiernas.",
+      "Agrega los garbanzos cocidos, el pimentón, sal y pimienta al gusto.",
+      "Cubre con agua o caldo y cocina a fuego lento durante 20 minutos.",
+      "Sirve caliente."
+    ],
+    "destacada": "si"
+  },
+  {
+    "titulo": "Receta de Habichuelas con chorizo y morcilla",
+    "descripcion": "Este guiso tradicional es un clásico de la cocina casera. Las habichuelas se cocinan lentamente junto al chorizo y la morcilla, creando un plato lleno de sabor y muy reconfortante, ideal para los días fríos.",
+    "categoria": [
+      "legumbres"
+    ],
+    "palabrasClave": [
+      "habichuelas",
+      "chorizo",
+      "morcilla",
+      "potaje",
+      "tradicional",
+      "cuchareo"
+    ],
+    "imagen": "imagenes/recetas/habichuelas-con-chorizo-y-morcilla.webp",
+    "slug": "habichuelas-con-chorizo-y-morcilla",
+    "tiempo": "1 hora y 30 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Media",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "400 g de habichuelas blancas",
+      "1 chorizo",
+      "1 morcilla",
+      "1 cebolla",
+      "2 dientes de ajo",
+      "1 hoja de laurel",
+      "Aceite de oliva virgen extra",
+      "Sal al gusto"
+    ],
+    "instrucciones": [
+      "Deja las habichuelas en remojo durante 12 horas.",
+      "En una cazuela, sofríe la cebolla y los ajos picados con un poco de aceite.",
+      "Añade las habichuelas escurridas, el chorizo, la morcilla y la hoja de laurel.",
+      "Cubre con agua y cocina a fuego lento durante 1 hora y 30 minutos.",
+      "Rectifica de sal y sirve caliente."
+    ],
+    "destacada": "si"
+  },
+  {
+    "titulo": "Receta de Lentejas con chorizo y morcilla",
+    "descripcion": "Las lentejas con chorizo y morcilla son un clásico de la cocina de cuchara española. Un plato sabroso y contundente, ideal para los días fríos, que combina legumbres con el sabor inconfundible de los embutidos tradicionales.",
+    "categoria": [
+      "legumbres"
+    ],
+    "palabrasClave": [
+      "lentejas",
+      "chorizo",
+      "morcilla",
+      "guiso",
+      "plato de cuchara",
+      "cuchareo",
+      "potaje"
+    ],
+    "imagen": "imagenes/recetas/lentejas-con-chorizo-y-morcilla.webp",
+    "slug": "lentejas-con-chorizo-y-morcilla",
+    "tiempo": "1 hora y 15 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Media",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "300 g de lentejas",
+      "1 chorizo",
+      "1 morcilla",
+      "1 cebolla",
+      "2 zanahorias",
+      "2 dientes de ajo",
+      "1 hoja de laurel",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta al gusto"
+    ],
+    "instrucciones": [
+      "Lava las lentejas y resérvalas.",
+      "En una cazuela, sofríe la cebolla, las zanahorias y los ajos picados con un poco de aceite.",
+      "Añade las lentejas, el chorizo, la morcilla y la hoja de laurel.",
+      "Cubre con agua y cocina a fuego lento durante 1 hora.",
+      "Rectifica de sal y pimienta antes de servir."
+    ],
+    "destacada": "si"
+  },
+  {
+    "titulo": "Receta de Macarrones integrales con brócoli",
+    "descripcion": "Los macarrones integrales con brócoli son una opción saludable y sabrosa para el día a día. Esta receta combina la fibra de la pasta integral con las propiedades del brócoli, creando un plato equilibrado, fácil de hacer y lleno de sabor.",
+    "categoria": [
+      "vegetarianas",
+      "pasta"
+    ],
+    "palabrasClave": [
+      "macarrones",
+      "brócoli",
+      "integral",
+      "pasta",
+      "saludable"
+    ],
+    "imagen": "imagenes/recetas/macarrones-integrales-con-brocoli.webp",
+    "slug": "macarrones-integrales-brocoli",
+    "tiempo": "30 minutos",
+    "comensales": "2 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "200 g de macarrones integrales",
+      "150 g de brócoli",
+      "2 dientes de ajo",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta al gusto",
+      "Queso rallado (opcional)"
+    ],
+    "instrucciones": [
+      "Cuece los macarrones en agua con sal según las instrucciones del paquete.",
+      "Mientras tanto, cocina el brócoli al vapor o en agua hirviendo durante 5 minutos.",
+      "En una sartén, sofríe los ajos picados con un poco de aceite.",
+      "Añade el brócoli y los macarrones escurridos a la sartén. Mezcla bien.",
+      "Rectifica de sal y pimienta, y sirve con queso rallado si lo deseas."
+    ],
+    "destacada": "si"
+  },
+  {
+    "titulo": "Receta de Paella de carne",
+    "descripcion": "La paella de carne es una deliciosa variante de la tradicional paella valenciana. Con ingredientes sencillos pero llenos de sabor, este plato es ideal para comidas familiares o celebraciones. Su base de arroz, junto con pollo, conejo o costillas, la convierten en una receta contundente y muy sabrosa.",
+    "categoria": [
+      "arroces",
+      "carne"
+    ],
+    "palabrasClave": [
+      "paella",
+      "carne",
+      "arroz",
+      "española",
+      "tradicional"
+    ],
+    "imagen": "imagenes/recetas/paella-de-carne.webp",
+    "slug": "paella-de-carne",
+    "tiempo": "1 hora y 15 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Media",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "300 g de arroz",
+      "500 g de pollo troceado",
+      "200 g de conejo troceado",
+      "1 pimiento rojo",
+      "2 tomates maduros",
+      "1 diente de ajo",
+      "1 litro de caldo de pollo",
+      "Aceite de oliva virgen extra",
+      "Hebras de azafrán",
+      "Sal al gusto"
+    ],
+    "instrucciones": [
+      "Calienta aceite en una paellera y dora el pollo y el conejo troceados.",
+      "Añade el pimiento rojo cortado en tiras y sofríe durante unos minutos.",
+      "Incorpora el ajo picado y los tomates rallados, y cocina hasta que se forme un sofrito.",
+      "Agrega el arroz y sofríelo durante 2 minutos para que absorba los sabores.",
+      "Vierte el caldo caliente, añade las hebras de azafrán y ajusta de sal.",
+      "Cocina a fuego medio durante 10 minutos y luego reduce el fuego al mínimo durante otros 10 minutos.",
+      "Deja reposar 5 minutos antes de servir."
+    ]
+  },
+  {
+    "titulo": "Receta de Pisto con huevo",
+    "descripcion": "El pisto con huevo es un plato tradicional de la cocina española que combina verduras frescas salteadas con un toque de tomate y se corona con un huevo frito o escalfado. Es saludable, sabroso y perfecto para disfrutar en cualquier época del año.",
+    "categoria": [
+      "vegetarianas",
+      "con-huevo"
+    ],
+    "palabrasClave": [
+      "pisto",
+      "huevo",
+      "verduras",
+      "sofrito",
+      "tradicional"
+    ],
+    "imagen": "imagenes/recetas/pisto-con-huevo.webp",
+    "slug": "pisto-con-huevo",
+    "tiempo": "40 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "2 calabacines",
+      "1 berenjena",
+      "1 pimiento rojo",
+      "1 pimiento verde",
+      "1 cebolla",
+      "3 tomates maduros",
+      "4 huevos",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta al gusto"
+    ],
+    "instrucciones": [
+      "Lava y corta las verduras en dados pequeños.",
+      "En una sartén grande, calienta aceite y sofríe la cebolla hasta que esté transparente.",
+      "Añade los pimientos y cocina durante 5 minutos.",
+      "Incorpora el calabacín y la berenjena, y cocina a fuego medio durante 10 minutos.",
+      "Agrega los tomates rallados, ajusta de sal y pimienta, y cocina a fuego lento durante 15 minutos.",
+      "Fríe o escalfa los huevos y colócalos sobre el pisto antes de servir."
+    ]
+  },
+  {
+    "titulo": "Receta de Pollo en salsa",
+    "descripcion": "El pollo en salsa es una receta casera, reconfortante y muy versátil. Su preparación sencilla y su sabor intenso lo convierten en uno de esos platos que nunca fallan. Ideal para mojar pan y disfrutar en familia.",
+    "categoria": [
+      "carne"
+    ],
+    "palabrasClave": [
+      "pollo",
+      "salsa",
+      "guiso",
+      "casero",
+      "tradicional"
+    ],
+    "imagen": "imagenes/recetas/pollo-en-salsa.webp",
+    "slug": "pollo-en-salsa",
+    "tiempo": "1 hora",
+    "comensales": "4 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "1 kg de muslos de pollo",
+      "2 cebollas",
+      "2 dientes de ajo",
+      "200 ml de vino blanco",
+      "500 ml de caldo de pollo",
+      "2 hojas de laurel",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta al gusto"
+    ],
+    "instrucciones": [
+      "Salpimienta los muslos de pollo y dóralos en una cazuela con aceite. Retira y reserva.",
+      "En la misma cazuela, sofríe la cebolla y los ajos picados hasta que estén dorados.",
+      "Añade el vino blanco y deja reducir el alcohol durante 5 minutos.",
+      "Incorpora el caldo de pollo, las hojas de laurel y los muslos de pollo.",
+      "Cocina a fuego medio durante 40 minutos, removiendo de vez en cuando.",
+      "Sirve caliente acompañado de arroz, patatas o pan."
+    ]
+  },
+  {
+    "titulo": "Receta de Salmón a la plancha",
+    "descripcion": "El salmón a la plancha es una opción saludable, rápida y llena de sabor. Rico en ácidos grasos omega-3, es ideal para quienes buscan una alimentación equilibrada sin renunciar al placer de una buena comida.",
+    "categoria": [
+      "pescado"
+    ],
+    "palabrasClave": [
+      "salmón",
+      "plancha",
+      "pescado",
+      "ligero",
+      "rápido"
+    ],
+    "imagen": "imagenes/recetas/salmon-a-la-plancha.webp",
+    "slug": "salmon-a-la-plancha",
+    "tiempo": "15 minutos",
+    "comensales": "2 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "2 lomos de salmón",
+      "1 cucharada de aceite de oliva virgen extra",
+      "Sal al gusto",
+      "Pimienta negra al gusto",
+      "1 limón (opcional)"
+    ],
+    "instrucciones": [
+      "Calienta una sartén antiadherente a fuego medio-alto con un poco de aceite de oliva.",
+      "Salpimienta los lomos de salmón por ambos lados.",
+      "Coloca el salmón en la sartén con la piel hacia abajo y cocina durante 4-5 minutos.",
+      "Dale la vuelta y cocina por el otro lado durante 2-3 minutos, dependiendo del grosor.",
+      "Sirve caliente con un chorrito de limón si lo deseas."
+    ]
+  },
+  {
+    "titulo": "Receta de Albóndigas de ternera",
+    "descripcion": "Las albóndigas de ternera son un clásico de la cocina española. Perfectas para cualquier ocasión, son fáciles de preparar y deliciosas. Este plato combina lo mejor de la carne de ternera con una salsa de tomate casera que le da un toque irresistible.",
+    "categoria": [
+      "carne"
+    ],
+    "palabrasClave": [
+      "albóndigas",
+      "ternera",
+      "salsa",
+      "guiso",
+      "carne"
+    ],
+    "imagen": "imagenes/recetas/albondigas-de-ternera.webp",
+    "slug": "albondigas-de-ternera",
+    "tiempo": "45 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Media",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "500 g de carne picada de ternera",
+      "1 huevo",
+      "2 dientes de ajo picados",
+      "1/2 cebolla rallada",
+      "2 cucharadas de pan rallado",
+      "Perejil fresco picado",
+      "Sal y pimienta al gusto",
+      "Harina para rebozar",
+      "Aceite de oliva virgen extra",
+      "Salsa de tomate casera"
+    ],
+    "instrucciones": [
+      "Mezcla la carne picada con el ajo, la cebolla, el huevo, el pan rallado, el perejil, la sal y la pimienta.",
+      "Forma albóndigas pequeñas y pásalas por harina.",
+      "Fríe las albóndigas en una sartén con aceite caliente hasta que estén doradas. Retira y reserva.",
+      "En una cazuela, calienta la salsa de tomate casera y añade las albóndigas.",
+      "Cocina a fuego lento durante 15 minutos para que se impregnen de sabor.",
+      "Sirve caliente con arroz, patatas o pan."
+    ]
+  },
+  {
+    "titulo": "Receta de Canelones de ternera",
+    "descripcion": "Los canelones de ternera son un plato reconfortante y lleno de sabor. Con su relleno jugoso y la cremosidad de la bechamel, son perfectos para compartir en familia o disfrutar en una comida especial. Esta receta combina la carne de ternera con sofrito casero y se gratina al horno con queso, logrando un resultado irresistible.",
+    "categoria": [
+      "pasta",
+      "carne"
+    ],
+    "palabrasClave": [
+      "canelones",
+      "ternera",
+      "pasta",
+      "bechamel",
+      "horno"
+    ],
+    "imagen": "imagenes/recetas/canelones-de-ternera.webp",
+    "slug": "canelones-de-ternera",
+    "tiempo": "1 hora y 15 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Media",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "12 placas de canelones",
+      "400 g de carne picada de ternera",
+      "1 cebolla pequeña picada",
+      "2 dientes de ajo picados",
+      "200 ml de salsa de tomate casera",
+      "2 cucharadas de aceite de oliva virgen extra",
+      "Sal y pimienta al gusto",
+      "1 pizca de nuez moscada",
+      "500 ml de leche",
+      "40 g de mantequilla",
+      "40 g de harina",
+      "Queso rallado para gratinar"
+    ],
+    "instrucciones": [
+      "Cuece las placas de canelones siguiendo las instrucciones del paquete. Escúrrelas y colócalas sobre un paño limpio.",
+      "En una sartén, sofríe la cebolla y el ajo picados con aceite de oliva hasta que estén dorados.",
+      "Añade la carne picada, sal, pimienta y una pizca de nuez moscada. Cocina hasta que la carne esté hecha.",
+      "Incorpora la salsa de tomate y cocina a fuego lento durante 5 minutos. Reserva.",
+      "Rellena las placas de canelones con la mezcla de carne y colócalos en una fuente para horno.",
+      "En un cazo, derrite la mantequilla, añade la harina y remueve. Incorpora la leche poco a poco hasta obtener una bechamel suave. Ajusta de sal y nuez moscada.",
+      "Vierte la bechamel sobre los canelones, espolvorea con queso rallado y gratina en el horno a 200 °C hasta que estén dorados.",
+      "Sirve caliente y disfruta."
+    ]
+  },
+  {
+    "titulo": "Receta de Dorada al horno",
+    "descripcion": "La dorada al horno es una receta sencilla y muy saludable, ideal para quienes buscan comer pescado sin complicaciones. Con ingredientes básicos y un toque de limón, esta preparación resalta todo el sabor del mar sin perder la jugosidad.",
+    "categoria": [
+      "pescado-y-marisco"
+    ],
+    "palabrasClave": [
+      "dorada",
+      "horno",
+      "pescado",
+      "ligero",
+      "fácil"
+    ],
+    "imagen": "imagenes/recetas/dorada-al-horno.webp",
+    "slug": "dorada-al-horno",
+    "tiempo": "30 minutos",
+    "comensales": "2 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "2 doradas limpias",
+      "2 dientes de ajo",
+      "1 limón",
+      "Aceite de oliva virgen extra",
+      "Sal al gusto",
+      "Pimienta negra al gusto",
+      "Perejil fresco picado"
+    ],
+    "instrucciones": [
+      "Precalienta el horno a 200 °C.",
+      "Lava las doradas y sécalas con papel de cocina.",
+      "Haz cortes superficiales en los lomos de las doradas y coloca rodajas de limón en los cortes.",
+      "Coloca las doradas en una bandeja para horno y añade los ajos picados, el perejil, sal y pimienta al gusto.",
+      "Rocía con un chorrito de aceite de oliva y hornea durante 20-25 minutos, dependiendo del tamaño del pescado.",
+      "Sirve caliente acompañado de patatas o ensalada."
+    ]
+  },
+  {
+    "titulo": "Receta de Ensaladilla rusa",
+    "descripcion": "La ensaladilla rusa es un clásico del verano y de cualquier reunión familiar. Cremosa, sabrosa y muy versátil, esta receta es ideal como entrante, tapa o acompañamiento. ¡Y cada casa tiene su versión favorita!",
+    "categoria": [
+      "con-huevo"
+    ],
+    "palabrasClave": [
+      "ensaladilla",
+      "patata",
+      "atún",
+      "mayonesa",
+      "fría"
+    ],
+    "imagen": "imagenes/recetas/ensaladilla-rusa.webp",
+    "slug": "ensaladilla-rusa",
+    "tiempo": "45 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Entrante",
+    "ingredientes": [
+      "4 patatas medianas",
+      "2 zanahorias",
+      "3 huevos",
+      "150 g de guisantes cocidos",
+      "2 latas de atún en aceite",
+      "200 g de mayonesa",
+      "Sal al gusto"
+    ],
+    "instrucciones": [
+      "Lava las patatas y las zanahorias, y cuécelas en agua con sal hasta que estén tiernas. Deja enfriar y pélalas.",
+      "Cuece los huevos durante 10 minutos, enfríalos y pélalos.",
+      "Corta las patatas, las zanahorias y los huevos en dados pequeños.",
+      "En un bol grande, mezcla las patatas, las zanahorias, los huevos, los guisantes y el atún desmenuzado.",
+      "Añade la mayonesa y mezcla bien. Ajusta de sal si es necesario.",
+      "Deja enfriar en la nevera durante al menos 1 hora antes de servir."
+    ]
+  },
+  {
+    "titulo": "Receta de fajitas de tortilla y salmón",
+    "descripcion": "Las fajitas de tortilla y salmón son una opción rápida, fresca y deliciosa. Una combinación perfecta de proteína saludable con un toque diferente que encantará en cualquier comida ligera o cena improvisada.",
+    "categoria": [
+      "pescado-y-marisco",
+      "con-huevo"
+    ],
+    "palabrasClave": [
+      "fajita",
+      "tortilla",
+      "salmón",
+      "rápido",
+      "saludable"
+    ],
+    "imagen": "imagenes/recetas/fajitas-de-tortilla-y-salmon.webp",
+    "slug": "fajitas-de-tortilla-y-salmon",
+    "tiempo": "20 minutos",
+    "comensales": "2 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "2 tortillas de trigo",
+      "100 g de salmón ahumado",
+      "2 huevos",
+      "50 g de queso crema",
+      "1 aguacate",
+      "Hojas de rúcula",
+      "Sal y pimienta al gusto"
+    ],
+    "instrucciones": [
+      "Bate los huevos con una pizca de sal y cocínalos en una sartén antiadherente para hacer una tortilla fina. Reserva.",
+      "Unta las tortillas de trigo con queso crema.",
+      "Coloca la tortilla de huevo sobre las tortillas de trigo.",
+      "Añade el salmón ahumado, el aguacate en rodajas y las hojas de rúcula.",
+      "Enrolla las tortillas firmemente y córtalas por la mitad.",
+      "Sirve inmediatamente o refrigera hasta el momento de consumir."
+    ]
+  },
+  {
+    "titulo": "Receta de carne en salsa",
+    "descripcion": "La carne en salsa es un plato casero, jugoso y lleno de sabor. Ideal para disfrutar acompañado de arroz, patatas o pan para mojar en su deliciosa salsa. Una receta de toda la vida que nunca falla.",
+    "categoria": [
+      "carne"
+    ],
+    "palabrasClave": [
+      "carne",
+      "salsa",
+      "guiso",
+      "tradicional",
+      "casero"
+    ],
+    "imagen": "imagenes/recetas/carne-en-salsa.webp",
+    "slug": "carne-en-salsa",
+    "tiempo": "1 hora",
+    "comensales": "4 comensales",
+    "dificultad": "Media",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "800 g de carne de ternera o cerdo en trozos",
+      "2 cebollas medianas",
+      "2 zanahorias",
+      "2 dientes de ajo",
+      "200 ml de vino blanco",
+      "500 ml de caldo de carne",
+      "2 hojas de laurel",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta al gusto"
+    ],
+    "instrucciones": [
+      "Salpimienta la carne y sofríela en una cazuela con un poco de aceite hasta que se dore por fuera. Retira y reserva.",
+      "Pica la cebolla, la zanahoria y los ajos, y sofríelos en la misma cazuela hasta que estén bien pochados.",
+      "Vuelve a incorporar la carne, añade el vino blanco y deja evaporar el alcohol unos minutos.",
+      "Agrega el caldo de carne y las hojas de laurel. Cocina a fuego medio-bajo durante 45-50 minutos, hasta que la carne esté tierna.",
+      "Si deseas una salsa más fina, puedes triturarla con la batidora antes de servir.",
+      "Sírvela caliente, acompañada de patatas fritas, arroz blanco o pan."
+    ]
+  },
+  {
+    "titulo": "Receta de callos",
+    "descripcion": "Los callos son un plato tradicional, sabroso y reconfortante. Elaborados con tripa de ternera, chorizo y morcilla, cocinados lentamente hasta conseguir una textura tierna y una salsa espesa llena de sabor. Una receta casera perfecta para los días fríos.",
+    "categoria": [
+      "carne",
+      "legumbres"
+    ],
+    "palabrasClave": [
+      "callos",
+      "tradicional",
+      "cuchara",
+      "guiso",
+      "casero"
+    ],
+    "imagen": "imagenes/recetas/callos.webp",
+    "slug": "callos",
+    "tiempo": "2 horas",
+    "comensales": "4 comensales",
+    "dificultad": "Media",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "1 kg de callos de ternera limpios y troceados",
+      "1 pata de ternera (opcional, da más gelatina)",
+      "1 chorizo",
+      "1 morcilla",
+      "150 g de jamón serrano en taquitos",
+      "1 cebolla grande",
+      "2 dientes de ajo",
+      "1 hoja de laurel",
+      "1 cucharadita de pimentón dulce",
+      "1 guindilla (opcional)",
+      "1 tomate maduro o 200 g de tomate triturado",
+      "Aceite de oliva virgen extra",
+      "Sal al gusto"
+    ],
+    "instrucciones": [
+      "Lava bien los callos y cuécelos durante 10 minutos en una olla con agua, sal y un chorrito de vinagre. Escúrrelos y enjuágalos con agua fría.",
+      "En una cazuela grande, sofríe la cebolla picada y los ajos en aceite de oliva hasta que se ablanden.",
+      "Añade el jamón, el chorizo en rodajas y la morcilla entera (puedes pincharla para que no reviente). Sofríe un par de minutos.",
+      "Agrega el tomate triturado y cocina unos 5 minutos más.",
+      "Incorpora el pimentón, la hoja de laurel y los callos escurridos. Cubre con agua o caldo y añade sal al gusto.",
+      "Deja cocinar a fuego medio-bajo durante unas 2 horas, removiendo de vez en cuando, hasta que los callos estén tiernos y la salsa espesa.",
+      "Retira la morcilla, córtala en rodajas y vuelve a incorporarla antes de servir.",
+      "Sirve los callos bien calientes, con un poco de pan para mojar en la salsa."
+    ]
+  },
+  {
+    "titulo": "Receta de arroz con champiñones y espárragos",
+    "descripcion": "El arroz con champiñones y espárragos es un plato saludable, ligero y lleno de sabor. Perfecto como plato principal o acompañamiento, combina la textura cremosa del arroz con el aroma de los champiñones y la frescura de los espárragos verdes. Ideal para disfrutar en cualquier época del año.",
+    "categoria": [
+      "arroces",
+      "vegetarianas"
+    ],
+    "palabrasClave": [
+      "arroz",
+      "champiñones",
+      "espárragos",
+      "vegetariano",
+      "saludable"
+    ],
+    "imagen": "imagenes/recetas/arroz-con-champiñones-y-esparragos.webp",
+    "slug": "arroz-con-champinones-y-esparragos",
+    "tiempo": "40 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "300 g de arroz (preferiblemente redondo o bomba)",
+      "200 g de champiñones laminados",
+      "1 manojo de espárragos verdes",
+      "1 cebolla mediana",
+      "2 dientes de ajo",
+      "800 ml de caldo de verduras",
+      "50 ml de vino blanco",
+      "Aceite de oliva virgen extra",
+      "Sal al gusto",
+      "Pimienta negra al gusto",
+      "Unas hebras de azafrán o cúrcuma (opcional)"
+    ],
+    "instrucciones": [
+      "Lava y corta los espárragos, desechando la parte más dura del tallo.",
+      "En una sartén amplia o paellera, calienta un poco de aceite de oliva y sofríe los espárragos durante 3-4 minutos. Retíralos y reserva.",
+      "En la misma sartén, añade un poco más de aceite y sofríe la cebolla y los ajos picados hasta que estén transparentes.",
+      "Agrega los champiñones laminados y cocina hasta que suelten el agua y se doren ligeramente.",
+      "Añade el arroz y remueve un par de minutos para que se impregne del sabor del sofrito.",
+      "Vierte el vino blanco y deja que se evapore el alcohol.",
+      "Incorpora el caldo caliente, el azafrán o la cúrcuma (si los usas), sal y pimienta al gusto. Cocina a fuego medio durante unos 18-20 minutos, removiendo de vez en cuando.",
+      "Cuando el arroz esté casi hecho, añade los espárragos salteados y mezcla suavemente.",
+      "Deja reposar unos minutos antes de servir para que se asienten los sabores."
+    ]
+  },
+  {
+    "titulo": "Receta de alioli",
+    "descripcion": "El alioli es una salsa tradicional mediterránea elaborada con ajo y aceite de oliva. Cremosa, intensa y con un sabor inconfundible, es el acompañamiento perfecto para arroces, carnes, pescados o patatas. Una receta sencilla pero con carácter.",
+    "categoria": [
+      "salsas"
+    ],
+    "palabrasClave": [
+      "alioli",
+      "ajo",
+      "salsa",
+      "tradicional",
+      "mediterránea"
+    ],
+    "imagen": "imagenes/recetas/alioli.webp",
+    "slug": "alioli",
+    "tiempo": "10 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Salsa",
+    "ingredientes": [
+      "1 huevo (opcional, para versión rápida tipo mayonesa)",
+      "1 o 2 dientes de ajo",
+      "150 ml de aceite de oliva virgen extra (o mezcla con aceite de girasol para suavizar el sabor)",
+      "Unas gotas de zumo de limón o vinagre",
+      "Sal al gusto"
+    ],
+    "instrucciones": [
+      "Pela los dientes de ajo y colócalos en el vaso de la batidora junto con el huevo (si decides usarlo).",
+      "Añade una pizca de sal y unas gotas de limón o vinagre.",
+      "Introduce la batidora hasta el fondo del vaso y vierte el aceite encima.",
+      "Empieza a batir sin mover la batidora hasta que veas que la mezcla emulsiona. Luego, sube y baja suavemente para integrar todo el aceite.",
+      "Ajusta el punto de sal y acidez al gusto.",
+      "Si prefieres la versión tradicional sin huevo, machaca los ajos en un mortero con sal y añade el aceite poco a poco mientras remueves en círculos hasta conseguir una textura espesa y homogénea."
+    ]
+  },
+  {
+    "titulo": "Receta de San Jacobo",
+    "descripcion": "El San Jacobo es un plato sencillo y delicioso elaborado con lonchas de jamón y queso empanadas y fritas hasta quedar doradas y crujientes. Es una receta tradicional muy popular en España, ideal para cenas rápidas o para disfrutar con una buena guarnición.",
+    "categoria": [
+      "carne",
+      "frito"
+    ],
+    "palabrasClave": [
+      "san jacobo",
+      "jamón york",
+      "queso",
+      "empanado",
+      "rápido"
+    ],
+    "imagen": "imagenes/recetas/san-jacobo.webp",
+    "slug": "san-jacobo",
+    "tiempo": "20 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "8 lonchas de jamón cocido (jamón york)",
+      "4 lonchas de queso (emmental, gouda o el que prefieras para fundir)",
+      "2 huevos",
+      "Pan rallado",
+      "Harina de trigo",
+      "Aceite de oliva o de girasol para freír",
+      "Sal al gusto"
+    ],
+    "instrucciones": [
+      "Coloca una loncha de queso entre dos de jamón cocido, formando una especie de sándwich.",
+      "Pasa cada San Jacobo primero por harina, luego por huevo batido y finalmente por pan rallado, asegurándote de que quede bien cubierto por todos los lados.",
+      "Calienta abundante aceite en una sartén a fuego medio-alto.",
+      "Fríe los San Jacobos hasta que estén dorados por ambos lados. Sácalos y colócalos sobre papel absorbente para eliminar el exceso de aceite.",
+      "Sirve calientes, acompañados de una ensalada, patatas fritas o una salsa al gusto."
+    ]
+  },
+  {
+    "titulo": "Receta de choco en salsa",
+    "descripcion": "El choco en salsa es un guiso tradicional andaluz, especialmente popular en la zona de Huelva y Cádiz. Se elabora con sepia o choco, verduras y vino, dando lugar a una salsa espesa, sabrosa y llena de aroma marinero. Ideal para acompañar con pan o arroz blanco.",
+    "categoria": [
+      "pescado-y-marisco"
+    ],
+    "palabrasClave": [
+      "choco",
+      "sepia",
+      "salsa",
+      "guiso",
+      "andaluz"
+    ],
+    "imagen": "imagenes/recetas/choco-en-salsa.webp",
+    "slug": "choco-en-salsa",
+    "tiempo": "50 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Media",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "800 g de choco (sepia) limpio y troceado",
+      "1 cebolla grande",
+      "2 dientes de ajo",
+      "1 pimiento verde",
+      "1 tomate maduro o 150 g de tomate triturado",
+      "100 ml de vino blanco",
+      "1 hoja de laurel",
+      "1 cucharadita de pimentón dulce",
+      "Aceite de oliva virgen extra",
+      "Sal al gusto",
+      "Pimienta negra al gusto",
+      "Agua o caldo de pescado (según necesidad)",
+      "Perejil fresco picado para decorar"
+    ],
+    "instrucciones": [
+      "Limpia bien el choco y córtalo en trozos medianos. Reserva.",
+      "Pica la cebolla, el pimiento y los ajos finamente.",
+      "En una cazuela con un buen chorro de aceite de oliva, sofríe la cebolla, el ajo y el pimiento hasta que estén bien pochados.",
+      "Añade el tomate rallado o triturado y cocina unos minutos hasta que se reduzca.",
+      "Incorpora el pimentón y remueve rápidamente para que no se queme.",
+      "Agrega el choco troceado, el laurel, sal y pimienta. Sofríe unos minutos hasta que el choco cambie de color.",
+      "Vierte el vino blanco y deja que se evapore el alcohol durante un par de minutos.",
+      "Cubre con agua o caldo de pescado y deja cocinar a fuego medio durante unos 35-40 minutos, hasta que el choco esté tierno y la salsa espese.",
+      "Rectifica de sal y espolvorea con perejil picado antes de servir."
+    ]
+  },
+  {
+    "titulo": "Receta de calamares rellenos",
+    "descripcion": "Los calamares rellenos son un plato tradicional, sabroso y muy completo. Se rellenan con una mezcla de sus propias aletas, huevo, pan y especias, y se cocinan en una salsa suave y aromática.",
+    "categoria": [
+      "pescado-y-marisco"
+    ],
+    "palabrasClave": [
+      "calamares",
+      "rellenos",
+      "marisco",
+      "guiso",
+      "tradicional"
+    ],
+    "imagen": "imagenes/recetas/calamares-rellenos.webp",
+    "slug": "calamares-rellenos",
+    "tiempo": "1 hora",
+    "comensales": "4 comensales",
+    "dificultad": "Media",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "8 calamares medianos limpios",
+      "1 huevo duro picado",
+      "2 rebanadas de pan remojadas en leche",
+      "Las aletas y patas picadas de los calamares",
+      "1 cebolla",
+      "2 dientes de ajo",
+      "150 ml de vino blanco",
+      "200 ml de caldo de pescado",
+      "1 cucharada de tomate concentrado o frito",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta al gusto",
+      "Perejil picado"
+    ],
+    "instrucciones": [
+      "Pica finamente las aletas y patas de los calamares.",
+      "Sofríe ajo y cebolla picados, añade las patas y cocina unos minutos.",
+      "Mezcla con el huevo duro, el pan escurrido y perejil. Ajusta de sal y pimienta.",
+      "Rellena los calamares sin apretar demasiado y cierra con un palillo.",
+      "En la misma cazuela, sofríe más cebolla y añade el tomate.",
+      "Incorpora los calamares, el vino blanco y deja evaporar.",
+      "Añade el caldo y cocina 30-40 minutos a fuego medio.",
+      "Retira palillos y sirve con su salsa."
+    ]
+  },
+  {
+    "titulo": "Receta de crema de verduras",
+    "descripcion": "La crema de verduras es un plato saludable y reconfortante elaborado con una mezcla de hortalizas frescas cocidas y trituradas. Ideal como primer plato o cena ligera.",
+    "categoria": [
+      "vegetarianas",
+      "cremas-y-sopas"
+    ],
+    "palabrasClave": [
+      "crema",
+      "verduras",
+      "saludable",
+      "ligera",
+      "casera"
+    ],
+    "imagen": "imagenes/recetas/crema-de-verduras.webp",
+    "slug": "crema-de-verduras",
+    "tiempo": "35 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Primer plato",
+    "ingredientes": [
+      "1 calabacín",
+      "2 zanahorias",
+      "1 puerro",
+      "1 patata mediana",
+      "1 trozo de calabaza (200 g)",
+      "1 litro de caldo de verduras",
+      "2 cucharadas de aceite de oliva virgen extra",
+      "Sal y pimienta al gusto",
+      "Nuez moscada (opcional)"
+    ],
+    "instrucciones": [
+      "Lava y trocea todas las verduras.",
+      "Sofríe el puerro en aceite hasta que se ablande.",
+      "Añade el resto de verduras y rehoga unos minutos.",
+      "Cubre con caldo y cocina 20-25 minutos.",
+      "Tritura hasta obtener una crema fina.",
+      "Rectifica de sal y añade un toque de nuez moscada si quieres."
+    ]
+  },
+  {
+    "titulo": "Receta de espaguetis a la boloñesa",
+    "descripcion": "La boloñesa es una salsa italiana tradicional elaborada con carne picada, verduras y tomate. Combinada con espaguetis, da como resultado un plato sabroso y reconfortante.",
+    "categoria": [
+      "pasta",
+      "carne"
+    ],
+    "palabrasClave": [
+      "boloñesa",
+      "espaguetis",
+      "carne picada",
+      "italiana",
+      "pasta"
+    ],
+    "imagen": "imagenes/recetas/espaguetis-a-la-bolonesa.webp",
+    "slug": "espaguetis-a-la-bolonesa",
+    "tiempo": "45 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "400 g de espaguetis",
+      "350 g de carne picada (ternera o mezcla)",
+      "1 cebolla",
+      "2 dientes de ajo",
+      "1 zanahoria",
+      "1 rama de apio (opcional)",
+      "400 g de tomate triturado",
+      "100 ml de vino tinto o blanco",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta",
+      "Orégano o albahaca"
+    ],
+    "instrucciones": [
+      "Cuece los espaguetis y reserva.",
+      "Pica cebolla, ajo y zanahoria y sofríe hasta que se ablanden.",
+      "Añade la carne picada y cocina hasta dorar.",
+      "Vierte el vino y deja evaporar.",
+      "Agrega el tomate, sal, pimienta y orégano.",
+      "Cocina a fuego medio 25-30 minutos.",
+      "Mezcla con los espaguetis o sirve la salsa por encima."
+    ]
+  },
+  {
+    "titulo": "Receta de espaguetis con gambas",
+    "descripcion": "Un plato mediterráneo lleno de sabor, preparado con gambas, ajo y aceite de oliva. Sencillo, rápido y con un aroma delicioso.",
+    "categoria": [
+      "Pasta",
+      "pescado-y-marisco"
+    ],
+    "palabrasClave": [
+      "espaguetis",
+      "gambas",
+      "ajo",
+      "pasta",
+      "marisco"
+    ],
+    "imagen": "imagenes/recetas/espaguetis-con-gambas.webp",
+    "slug": "espaguetis-con-gambas",
+    "tiempo": "25 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "400 g de espaguetis",
+      "300 g de gambas peladas",
+      "3 dientes de ajo",
+      "1 guindilla (opcional)",
+      "50 ml de vino blanco",
+      "Aceite de oliva virgen extra",
+      "Perejil fresco",
+      "Sal y pimienta"
+    ],
+    "instrucciones": [
+      "Cuece los espaguetis y reserva un poco del agua de cocción.",
+      "Sofríe los ajos laminados y la guindilla.",
+      "Añade las gambas y saltéalas 2-3 minutos.",
+      "Vierte el vino y deja evaporar.",
+      "Añade los espaguetis y mezcla bien.",
+      "Rectifica de sal y pimienta y añade perejil picado."
+    ]
+  },
+  {
+    "titulo": "Receta de gildas de salmón ahumado",
+    "descripcion": "Una versión moderna de la clásica gilda vasca. Lleva salmón ahumado, aceitunas, piparras y un toque de aceite. Un bocado fresco, sabroso y perfecto como aperitivo.",
+    "categoria": [
+      "aperitivos",
+      "pescado-y-marisco"
+    ],
+    "palabrasClave": [
+      "gildas",
+      "salmón",
+      "aperitivo",
+      "pintxo",
+      "fácil"
+    ],
+    "imagen": "imagenes/recetas/gildas-de-salmon-ahumado.webp",
+    "slug": "gildas-de-salmon-ahumado",
+    "tiempo": "10 minutos",
+    "comensales": "4 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Aperitivo",
+    "ingredientes": [
+      "200 g de salmón ahumado en tiras",
+      "12 aceitunas verdes sin hueso",
+      "12 piparras",
+      "Aceite de oliva virgen extra",
+      "Palillos de aperitivo"
+    ],
+    "instrucciones": [
+      "Enrolla una tira de salmón y colócala en el palillo.",
+      "Añade una aceituna y una piparra.",
+      "Repite el proceso hasta completar todas las gildas.",
+      "Riega con un chorrito de aceite de oliva antes de servir."
+    ]
+  },
+  {
+    "titulo": "Receta de lasaña de salmón y espinacas",
+    "descripcion": "Lasaña cremosa y suave elaborada con salmón, espinacas y una bechamel ligera. Un plato completo, sabroso y perfecto para ocasiones especiales o para disfrutar en familia.",
+    "categoria": [
+      "pescado-y-marisco",
+      "pasta"
+    ],
+    "palabrasClave": [
+      "lasaña",
+      "salmón",
+      "espinacas",
+      "bechamel",
+      "horno"
+    ],
+    "imagen": "imagenes/recetas/lasana-de-salmon-y-espinacas.webp",
+    "slug": "lasana-salmon-espinacas",
+    "tiempo": "1 hora",
+    "comensales": "4 comensales",
+    "dificultad": "Media",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "200 g de salmón fresco o ahumado",
+      "300 g de espinacas frescas",
+      "12 láminas de lasaña precocida",
+      "1 cebolla",
+      "2 dientes de ajo",
+      "500 ml de leche",
+      "40 g de harina",
+      "40 g de mantequilla",
+      "Queso rallado para gratinar",
+      "Aceite de oliva virgen extra",
+      "Sal y pimienta"
+    ],
+    "instrucciones": [
+      "Saltea la cebolla y los ajos picados en aceite de oliva.",
+      "Añade las espinacas y cocínalas hasta que pierdan el agua.",
+      "Agrega el salmón desmenuzado y salpimienta. Cocina unos minutos y reserva.",
+      "Para la bechamel, derrite la mantequilla, añade la harina y mezcla. Incorpora la leche poco a poco hasta lograr una crema suave.",
+      "Monta la lasaña alternando placas, relleno y bechamel.",
+      "Cubre con queso rallado y hornea 25-30 minutos a 180°C.",
+      "Deja reposar 5 minutos antes de servir."
+    ]
+  },
+  {
+    "titulo": "Receta de tortilla de espinacas",
+    "descripcion": "Una tortilla jugosa y saludable elaborada con espinacas frescas. Perfecta como plato principal, acompañamiento o para llevar en un tupper.",
+    "categoria": [
+      "con-huevo"
+    ],
+    "palabrasClave": [
+      "tortilla",
+      "espinacas",
+      "huevos",
+      "rápido",
+      "ligero"
+    ],
+    "imagen": "imagenes/recetas/tortilla-de-espinacas.webp",
+    "slug": "tortilla-de-espinacas",
+    "tiempo": "15 minutos",
+    "comensales": "2 comensales",
+    "dificultad": "Fácil",
+    "tipo": "Plato principal",
+    "ingredientes": [
+      "200 g de espinacas",
+      "4 huevos",
+      "1 diente de ajo (opcional)",
+      "Aceite de oliva virgen extra",
+      "Sal"
+    ],
+    "instrucciones": [
+      "Saltea las espinacas con un poco de aceite y ajo picado si lo deseas.",
+      "Bate los huevos en un bol y añade las espinacas salteadas.",
+      "Vierte la mezcla en una sartén con un chorrito de aceite.",
+      "Cocina por ambos lados hasta obtener la textura deseada.",
+      "Sirve caliente o templada."
+    ]
+  }
+]

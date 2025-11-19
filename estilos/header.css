@@ -1,0 +1,202 @@
+.header {
+  padding: 0.1rem;
+  background-color: #e6e9e9;
+  border-bottom: 0.0625rem solid #ddd;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-sizing: border-box; /* Asegura que el padding esté dentro del ancho total */
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 2rem;
+  z-index: 1;
+  justify-content: left;
+}
+
+.nav-der {
+  display: flex;
+}
+
+.nav-form {
+  display: flex;
+  max-width: 13rem;
+  padding: 0.5rem;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: visible; /* importante para que no corte la animación */
+}
+
+.nav-search {
+  visibility: hidden;
+  padding: 0.3rem;
+  border: 0.15rem solid #b6bdbd;
+  font-size: 0.865rem;
+  outline: none;
+  position: absolute;
+  right: 2.5rem; /* deja visible el icono */
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  opacity: 0;
+  z-index: 9999; /* por encima del logo */
+  transition: width 0.4s ease, opacity 0.3s ease;
+}
+
+.nav-search.show {
+  visibility: visible;
+  padding: 0.3rem;
+  border: 0.15rem solid #b6bdbd;
+  font-size: 0.865rem;
+  outline: none;
+  width: 14.5rem;
+  opacity: 1;
+  height: 0.70rem;
+}
+
+.search-icon {
+  background-color: #b6bdbd;
+  border: none;
+  cursor: pointer;
+  border: 0.15rem solid #b6bdbd;
+  position: relative;
+  z-index: 10000; /* para asegurarte que el icono siempre esté encima */
+}
+
+/* Menú desplegable para pantallas pequeñas */
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  right: -0.5rem;
+  background-color: #e6e9e9;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.5s ease, padding 0.5s ease;
+  z-index: 10;
+  text-align: left;
+  gap: 1rem;
+  /* Más espacio entre los enlaces en pantallas pequeñas */
+}
+
+.nav-list.show {
+  max-height: 20rem;
+  /* Altura máxima del menú desplegable */
+  padding: 1rem 0;
+  /* Añade padding cuando se muestra el menú */
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 1rem;
+  transition: color 0.3s;
+}
+
+.nav-list a:hover {
+  color: #000;
+}
+
+.hamburger-menu {
+  display: block;
+  border: none;
+  font-size: 1.75rem;
+  cursor: pointer;
+  background-color: #e6e9e9;
+}
+
+/* ...existing code... */
+
+@media (min-width: 75rem) {
+  .header {
+    padding: 0.5rem 10rem;
+  }
+
+  .nav {
+    justify-content: space-between;
+    height: 2.5rem;
+  }
+
+  .nav-logo {
+    height: 2.5rem;
+  }
+
+  .nav-der {
+    display: contents;
+    justify-content: left;
+  }
+
+  .nav-form {
+    flex: 1 0 auto;
+    max-width: 16rem;
+    position: relative;
+    justify-content: flex-start;
+    display: flex;
+  }
+
+  .nav-search {
+    visibility: visible;
+    width: calc(100% - 3rem); /* Deja espacio para el icono */
+    padding: 0.5rem 1rem;
+    border: 0.15rem solid #b6bdbd;
+    font-size: 1rem;
+    outline: none;
+    position: static;
+    opacity: 1;
+    transform: none;
+    height: auto;
+  }
+
+  .search-icon {
+    display: block; /* Mostrar el icono en pantallas grandes */
+    background-color: #b6bdbd;
+    border: 0.15rem solid #b6bdbd;
+    padding: 0.5rem;
+    cursor: pointer;
+    position: static;
+    z-index: auto;
+    height: auto;
+    width: auto;
+  }
+
+  .nav-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: static;
+    max-height: none;
+    padding: 0;
+    margin: 0;
+    transition: none;
+    gap: 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+
+  .nav-list a {
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 0.25rem;
+  }
+
+  .nav-list a:hover {
+    color: #000;
+  }
+
+  .hamburger-menu {
+    display: none;
+  }
+}
