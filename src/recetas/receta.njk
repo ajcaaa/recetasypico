@@ -9,7 +9,7 @@ permalink: "recetas/{{ receta.slug }}/index.html"
 
   <!-- Sección principal con título e imagen -->
   <section class="recipe">
-    <h1>Receta de {{ receta.titulo }}</h1>
+    <h1>{{ receta.titulo }}</h1>
     <div class="recipes-container2">
       <article class="image-recipe">
         <img src="{{ ('/' + receta.imagen) | url }}" alt="{{ receta.titulo }}" />
